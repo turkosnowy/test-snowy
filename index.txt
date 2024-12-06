@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .whatsapp {
+            margin-top: 20px;
+        }
+        .whatsapp a {
+            text-decoration: none;
+            color: #25D366; /* Cor do WhatsApp */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo a Snowy North</h1>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre nos</h2>
+        <p>Snowy North é um grupo de jovens programadores focados na aprendizagem de hacking ético. Estamos começando um projeto onde abriremos as portas e oportunidades para aqueles que desejam aprender a programar.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <p>Oferecemos cursos e workshops de programação gratuito, além de mentoria para novos programadores. Venha aprender com a gente!</p>
+    </section>
+<h1>Entre em Contato Conosco!</h1>
+    <p>sinta-se à vontade para nos enviar uma mensagem pelo WhatsApp:</p>
+    <a href="https://wa.me/+5511961444252" target="_blank">
+        <button>Enviar Mensagem no WhatsApp</button>
+    </a>
+</body>
